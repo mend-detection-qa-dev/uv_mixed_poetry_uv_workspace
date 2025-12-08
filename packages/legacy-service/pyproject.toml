@@ -44,6 +44,3 @@ shared-lib = {path = "../shared-lib", develop = true}
 pytest = "^8.0.0"
 black = "^24.0.0"
 
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
