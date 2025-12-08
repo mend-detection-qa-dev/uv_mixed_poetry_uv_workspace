@@ -53,10 +53,6 @@ dev = [
     "mypy>=1.8.0",
 ]
 
-[build-system]
-# Using hatchling for UV compatibility
-requires = ["hatchling"]
-build-backend = "hatchling.build"
 
 # Poetry would use:
 # requires = ["poetry-core>=1.0.0"]
